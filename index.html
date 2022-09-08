@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Length Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="convert.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h3 id="title"><b>Length Converter</b></h3>
+
+        <input type="number" id="input" placeholder="Input">
+        <span>=</span>  
+        <input type="number" id="output" placeholder="Result">
+
+        <select name="" id="inputType">
+            <option value="">-select-</option>
+            <option value="centimeters">centimeters</option>
+            <option value="meters">meters</option>
+            <option value="kilometers">kilometers</option>
+        </select>
+
+        <select name="" id="outputType">
+            <option value="">-select-</option>
+            <option value="centimeters">centimeters</option>
+            <option value="meters">meters</option>
+            <option value="kilometers">kilometers</option>
+        </select>
+
+        <button id="button" onclick="convert()">Convert</button>
+    </div>    
+</body>
+</html>
